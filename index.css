@@ -1,0 +1,177 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #a9c7e0;
+}
+
+/* Navbar Styling Start Here */
+
+nav {
+  width: 100%  !important;
+  overflow: hidden;
+  height: 100px;
+  background-color: rgba(71,71,186,0.804);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#logo{
+  width: 120px;
+  height: 120px;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  
+}
+
+input{
+  width: 450px;
+  height: 40px;
+  padding: 0px 10px;
+  border: none;
+  
+ 
+}
+
+i{
+  background-color: rgb(222,204,70);
+  color:  white;
+  padding: 12px;
+  margin-left: -2px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  gap: 20px;
+  
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.heart{
+  width: 35px;
+  height: 35px;
+}
+.cart-icon{
+  width: 35px;
+  height: 35px;
+}
+
+
+/* Now NavBar Responsive Start Here */
+
+/* For Small Screen */
+
+@media (max-width: 320px) {
+
+nav{
+  height: 80px;
+}
+  #logo{
+    width: 90px;
+    height: 90px;
+  }
+
+  input{
+    width: 140px;
+    height: 25px;
+    padding: 0px 7px;
+    border: none;
+    margin-left: 20px;
+    
+   
+  }
+
+  i {
+    background-color: transparent;
+    color: black;
+    margin-left: -30px;
+    
+  }
+
+  
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+  gap: 3px;
+  
+}
+
+.heart{
+  width: 25px;
+  height: 25px;
+}
+
+.cart-icon{
+  width: 25px;
+  height: 25px;
+}
+}
+
+
+/* For Tablet */
+
+@media (min-width: 321px) and (max-width: 768px) {
+  nav{
+    height: 90px;
+  }
+
+  #logo{
+    width: 100px;
+    height: 100px;
+  }
+
+  input{
+    width: 350px;
+    height: 30px;
+    padding: 0px 10px;
+    border: none;
+    
+   
+  }
+
+  i{
+    background-color: rgb(222,204,70);
+    color:  white;
+    padding: 7px;
+    margin-left: -2px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    gap: 7px;
+    
+  }
+
+  .heart{
+    width: 30px;
+    height: 30px;
+  }
+  .cart-icon{
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+/* NavBar Close with resposiveness as well */
+
+
