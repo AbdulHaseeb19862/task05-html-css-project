@@ -9,7 +9,7 @@ body {
   background-color: #a9c7e0;
 }
 
-/* Navbar Styling Start Here */
+
 
 nav {
   width: 100%  !important;
@@ -70,8 +70,66 @@ i{
   height: 35px;
 }
 
+.container{
+  display: flex;
+  padding: 5px;
+}
 
-/* Now NavBar Responsive Start Here */
+
+
+.right-side {
+  
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.438)), 
+              url(./Assets/images/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.right-side h2 {
+  text-align: center;
+  
+}
+
+.right-side img {
+  width: 450px;
+  
+}
+
+.left-side{
+  width: 22%;
+  height: 200px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.left-side h2{
+  background-color: rgba(71,71,186,0.804);
+  padding: 3px;
+  color: white;
+  text-align: center;
+}
+
+.left-side ul li {
+  list-style: none;
+  padding: 8px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.left-side ul li:hover {
+  font-weight: normal;
+}
+
+
 
 /* For Small Screen */
 
@@ -172,6 +230,6 @@ nav{
 
 }
 
-/* NavBar Close with resposiveness as well */
+
 
 
